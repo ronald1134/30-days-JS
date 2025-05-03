@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Bem vindo ao sistema!</h1>
+    </div>
+</body>
+
+<script>
+    let senhaCorreta = "1234";
+    let tentativa;
+
+    while (true) {
+        tentativa = prompt("Digite a senha:");
+
+        if (tentativa === null) {
+            alert("Operação cancelada. Encerrando o acesso.");
+            break;
+        }
+
+        if (tentativa === senhaCorreta) {
+            alert("Senha correta! Acesso liberado.");
+            break;
+        } else {
+            alert("Senha incorreta. Tente novamente.");
+        }
+    }
+</script>
+
+</html>

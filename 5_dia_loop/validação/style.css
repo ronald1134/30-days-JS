@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background: #000 url('pexels-jplenio-3262249.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+#container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    width: 25rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    color: rgb(2, 0, 3);
+    background-color: rgba(235, 185, 255, 0.438);
+    border-radius: 15rem;
+    transition: all 1s;
+}
+h1:hover{
+    background-color:rgb(235, 185, 255);
+}
